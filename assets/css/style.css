@@ -190,7 +190,7 @@ a {
     top: 10%;
   }
   .header .carousel-inner .carousel-item .carousel-caption h5 {
-    font-size: 50px;
+    font-size: 40px !important;
   }
 }
 @media (min-width: 768px) {
