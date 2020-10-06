@@ -1,0 +1,55 @@
+
+.header{
+    height: auto;
+    /* Start Home Section */
+    .home{
+        height: 600px;
+        background-image: url(../img/hero_bg_2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+        .row{
+            .col-lg-7{
+                h2{
+                    color: #fff;
+                    font-family: 'Poppins', sans-serif;
+                    text-transform: uppercase;
+                    font-size: 80px;
+                }
+            }
+        }
+        .breadcrumb{
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            li{
+                color: #ddd;
+                font-size: 19px;
+                a{
+                    color: $mainColor;
+                }
+                &::before{
+                    color: #ddd;
+                }
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .home{
+            .row{
+                .col-lg-7{
+                    h2{
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
+    /* End Home Section */
+}

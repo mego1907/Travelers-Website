@@ -1,0 +1,58 @@
+/* Start Header */
+.header{
+    .home{
+        .row{
+            .col-lg-7{
+                h2{
+                    font-size: 65px;
+                }
+            }
+        }
+    }
+}
+/* End Header */
+
+/* Start Discount Top */
+.discount-top{
+    @extend .our-destinations;
+    .country-desc{
+        .cost{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            position: relative;
+            &::after{
+                content: "";
+                width: 10px;
+                height: 2px;
+                background-color: #fff;
+                position: absolute;
+                top: 10px;
+            }
+            .price{
+                text-decoration: line-through;
+                color: #fff !important;
+            }
+            .discount{
+                color: $mainColor;
+                font-size: 18px;
+                text-decoration: none;
+                margin-left: 25px;
+            }
+        }
+    }
+}
+/* End Discount Top */
+
+/* start Our Distinations Section */
+.our-destinations{
+    @extend .discount-top;
+    .country{
+        .country-desc{
+            h4{
+                font-size: 23px;
+            }
+        }
+    }
+}
+/* End Our Distinations Section */

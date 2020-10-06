@@ -1,0 +1,13 @@
+.heading{
+    margin-bottom: 3rem;
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+    }
+    .heading-desc{
+        color: rgba( #000000, 0.7)
+    }
+    @media (max-width: 767px) {
+        margin-bottom: 2rem;
+    }
+}
