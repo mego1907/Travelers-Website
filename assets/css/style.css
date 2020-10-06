@@ -183,6 +183,9 @@ a {
   .header .btn-icon {
     top: 30%;
   }
+  .header .carousel-inner {
+    height: 750px;
+  }
   .header .carousel-inner .carousel-item .carousel-caption {
     top: 10%;
   }
@@ -685,7 +688,7 @@ a {
 
 /* End Book Section */
 .header {
-  height: auto;
+  height: 100%;
   /* Start Home Section */
   /* End Home Section */
 }
@@ -808,6 +811,12 @@ a {
 .about-company .col-md-6 .about-company-desc ul li p {
   font-size: 18px;
   color: rgba(0, 0, 0, 0.6);
+}
+@media (max-width: 767px) {
+  .about-company .about-company-desc {
+    margin-left: 0 !important;
+    margin-top: 20px;
+  }
 }
 
 /* End About Company */

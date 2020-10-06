@@ -33,6 +33,12 @@
             }
         }
     }
+    @media(max-width: 767px) {
+        .about-company-desc{
+            margin-left: 0 !important;
+            margin-top: 20px;
+        }    
+    }
 }
 /* End About Company */
 
