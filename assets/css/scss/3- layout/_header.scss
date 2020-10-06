@@ -106,50 +106,50 @@
                 }
             }
         }
-        @media (max-width: 767px) {
-            .btn-icon{
-                top: 30%
-            }
-            .carousel-inner{
-                .carousel-item{
-                    .carousel-caption{
-                        top: 10%;
-                        h5{
-                            font-size: 50px;
-                        }
+    }
+    @media (max-width: 767px) {
+        .btn-icon{
+            top: 30%
+        }
+        .carousel-inner{
+            .carousel-item{
+                .carousel-caption{
+                    top: 10%;
+                    h5{
+                        font-size: 50px;
                     }
                 }
             }
         }
-        @media (min-width: 768px) {
-            .btn-icon{
-                top: 30%
-            }
-            .carousel-inner{
-                .carousel-item{
-                    .carousel-caption{
-                        top: 20%;
-                        h5{
-                            font-size: 50px;
-                        }
+    }
+    @media (min-width: 768px) {
+        .btn-icon{
+            top: 30%
+        }
+        .carousel-inner{
+            .carousel-item{
+                .carousel-caption{
+                    top: 20%;
+                    h5{
+                        font-size: 50px;
                     }
                 }
             }
         }
-        @media (min-width: 991px) {
-            .btn-icon{
-                top: 50%
-            }
-            .carousel-inner{
-                .carousel-item{
-                    img{
-                        width: 100%;
-                    }
-                    .carousel-caption{
-                        top: 35%;
-                        h5{
-                            font-size: 60px;
-                        }
+    }
+    @media (min-width: 991px) {
+        .btn-icon{
+            top: 50%
+        }
+        .carousel-inner{
+            .carousel-item{
+                img{
+                    width: 100%;
+                }
+                .carousel-caption{
+                    top: 35%;
+                    h5{
+                        font-size: 60px;
                     }
                 }
             }

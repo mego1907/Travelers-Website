@@ -180,38 +180,38 @@ a {
   padding-bottom: 20px;
 }
 @media (max-width: 767px) {
-  .header .carousel .btn-icon {
+  .header .btn-icon {
     top: 30%;
   }
-  .header .carousel .carousel-inner .carousel-item .carousel-caption {
+  .header .carousel-inner .carousel-item .carousel-caption {
     top: 10%;
   }
-  .header .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+  .header .carousel-inner .carousel-item .carousel-caption h5 {
     font-size: 50px;
   }
 }
 @media (min-width: 768px) {
-  .header .carousel .btn-icon {
+  .header .btn-icon {
     top: 30%;
   }
-  .header .carousel .carousel-inner .carousel-item .carousel-caption {
+  .header .carousel-inner .carousel-item .carousel-caption {
     top: 20%;
   }
-  .header .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+  .header .carousel-inner .carousel-item .carousel-caption h5 {
     font-size: 50px;
   }
 }
 @media (min-width: 991px) {
-  .header .carousel .btn-icon {
+  .header .btn-icon {
     top: 50%;
   }
-  .header .carousel .carousel-inner .carousel-item img {
+  .header .carousel-inner .carousel-item img {
     width: 100%;
   }
-  .header .carousel .carousel-inner .carousel-item .carousel-caption {
+  .header .carousel-inner .carousel-item .carousel-caption {
     top: 35%;
   }
-  .header .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+  .header .carousel-inner .carousel-item .carousel-caption h5 {
     font-size: 60px;
   }
 }
@@ -732,6 +732,11 @@ a {
 /* Start Header */
 .header .home .row .col-lg-7 h2 {
   font-size: 65px;
+}
+@media (max-width: 767px) {
+  .header .home .row .col-lg-7 h2 {
+    font-size: 40px;
+  }
 }
 
 /* End Header */

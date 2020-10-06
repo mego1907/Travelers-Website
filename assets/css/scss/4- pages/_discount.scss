@@ -9,6 +9,17 @@
             }
         }
     }
+    @media (max-width: 767px) {
+        .home{
+            .row{
+                .col-lg-7{
+                    h2{
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
 }
 /* End Header */
 
